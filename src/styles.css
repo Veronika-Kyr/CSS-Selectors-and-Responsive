@@ -262,28 +262,18 @@ a {
         width: 483px;
     }
 
-    /* .header {
-        /* display: flex; */
-    /* } */
-
     .wrapper {
         position: relative;
         padding-left: 20px;
         width: 433px;
-
     }
 
     .heroBlock {
-        /* display: flex;
-        flex-wrap: wrap;
-        justify-content: center; */
         padding: 200px 48px 246px 48px;
-
     }
 
     .navLinks {
         display: none;
-
     }
 
     .burger {
@@ -295,8 +285,6 @@ a {
 
     .sectionWithColor01 {
         position: static;
-        /* top: 800px; */
-        /* height: 700px; */
         margin-top: -90px;
         width: 483px;
         height: 990px;
@@ -309,7 +297,6 @@ a {
     .headSection01 {
         padding: 65px 62px 41px 63px;
         margin-bottom: 0;
-        /* margin-bottom: 40px; */
     }
 
     .textSection01 {
@@ -325,7 +312,6 @@ a {
         margin-top: -90px;
         width: 483px;
         height: 637px;
-
     }
 
     .coverSection02 {
@@ -333,7 +319,6 @@ a {
         margin-top: -90px;
         width: 483px;
         height: 637px;
-
     }
 
     .headSection02 {
@@ -349,8 +334,6 @@ a {
         margin: 0 auto;
         padding-top: 25px;
         padding-left: 10px;
-        /* top: 91px;
-        left: 192px; */
     }
 
     .triangle {
@@ -364,7 +347,6 @@ a {
     .learnMore {
         position: static;
         margin: 70px 41px 0 43px;
-
         padding: 0;
     }
 
@@ -373,7 +355,6 @@ a {
         height: 292px;
         width: 483px;
         margin-top: -22px;
-
     }
 
     .wrapperFooter {
@@ -398,5 +379,4 @@ a {
     .markRights {
         padding-top: 19px;
     }
-
 }
