@@ -1,3 +1,9 @@
+:root {
+    --btn-color: #55C2D8;
+    --additional-color: #464547;
+    --head-font: 'Oswald', sans-serif;
+}
+
 body {
     width: 1200px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -53,7 +59,7 @@ h1 {
     text-align: center;
     font-size: 48px;
     line-height: 64px;
-    font-family: 'Oswald', sans-serif;
+    font-family: var(--head-font);
     font-weight: 700;
     color: #FFFFFF;
 }
@@ -62,7 +68,7 @@ h2 {
     text-align: center;
     font-size: 48px;
     line-height: 64px;
-    font-family: 'Oswald', sans-serif;
+    font-family: var(--head-font);
     font-weight: 700;
     color: #FFFFFF;
 }
@@ -97,7 +103,7 @@ h2 {
 .headSection01 {
     margin-top: 87px;
     margin-bottom: 40px;
-    color: #464547;
+    color: var(--additional-color);
     font-weight: 700;
 }
 
@@ -131,7 +137,7 @@ h2 {
     padding: 5px 17px 6px 18px;
     border: none;
     border-radius: 18px;
-    background: #55C2D8;
+    background: var(--btn-color);
     color: white;
     text-align: center;
     font-size: 14px;
@@ -171,7 +177,7 @@ h2 {
     position: absolute;
     top: 254px;
     left: 525px;
-    background: #39C2D7;
+    background: var(--btn-color);
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -192,7 +198,6 @@ h2 {
 
 .learnMore {
     position: absolute;
-    /* left: 395px; */
     top: 474px;
     color: #FFFFFF;
     font-size: 24px;
@@ -208,7 +213,7 @@ h2 {
     position: absolute;
     top: 2166px;
     height: 170px;
-    background: #464547;
+    background: var(--additional-color);
     width: 1200px;
 }
 
