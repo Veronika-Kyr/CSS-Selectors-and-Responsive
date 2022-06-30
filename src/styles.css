@@ -300,8 +300,9 @@ a {
     }
 
     .headSection01 {
-        padding: 65px 62px 41px 63px;
+        padding: 65px 62px 41px 27px;
         margin-bottom: 0;
+        text-align: left;
     }
 
     .textSection01 {
@@ -310,6 +311,12 @@ a {
 
     .subHeadSection01 {
         margin-bottom: 18px;
+        text-align: left;
+        margin-left: 27px;
+    }
+
+    .btnRead {
+        margin-left: 27px;
     }
 
     .sectionWithImage02 {
@@ -374,7 +381,7 @@ a {
     }
 
     .logoWord {
-        padding-left: 0px;
+        padding-left: 15px;
     }
 
     .smallLogo {
